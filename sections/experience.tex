@@ -1,0 +1,37 @@
+\cvsection{Work Experience}
+\begin{cventries}
+
+  \cventry
+  {Sprinklr}
+  {Research And Development Intern}
+  {India}
+  {May 2019 - July 2019}
+  {
+    \begin{cvitems}
+      \item Worked on a generic Profiler in python, to pin-point Java Threads blocking CPU/IO/Network in a system on Spike, by concurrently using Jstack and top utility. Devised a multi-variable scoring system for threads to reduce false-positives, after a series of observations.
+      \item	Currently in Production and helped bring down the CPU usage from \textbf{90\% during Spike to 50\%} by pointing out the inefficient code blocks. 
+      \item Implemented a Mongo based Cache for metadata of Logs stored in S3, to reduce the Query time of Spark. Reduced the initial Response time of \textbf{120 seconds to 3 seconds}.
+    \end{cvitems}
+  }
+
+  \cventry
+  {PharmEasy}
+  {Tech Development Intern}
+  {India}
+  {May 2018 - July 2018}
+  {
+    \begin{cvitems}
+      \item Implemented a Redis-based Cache, after performing benchmarking of in-memory Databases namely Aerospike, Memcached and Redis, to Cache the common Database queries. Performed Load-testing of the Cache framework and devised an Adaptive strategy for TTL of the Cache based on access patterns of the Table.
+      \item Achieved about \textbf{50 percent drop} in Database queries of tables cached, and \textbf{25
+percent drop} in response-time.
+    \end{cvitems}
+  }
+
+\end{cventries}
+\vspace{-2mm}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-engine: xetex
+%%% TeX-master: "../cv.tex"
+%%% End:

@@ -1,0 +1,48 @@
+NetSandbox (3 points - 6-7 Lines Total) - 1.5 years Working
+1. Research Project on developing a Generic sandbox for any application, and restricting all attacks from entering the host system, using an interface to split VFS and Socket based system calls. By intercepting VFS syscalls for files stored in host, and socket syscalls for X server, an application runs inside a VM, pretending as if it is running inside the Host machine. 
+2. Established the various Security Guarantees and Threat Model of this system. Designed the overall architecture, and implemented a 'three-way' efficient Communication channel between VM and Host, to transfer syscalls information from one side to the other. 
+3. Implemented the system code for interception of various critical syscalls like SELECT, POLL, FCTNL, IOCTL, MMAP, WRITEV, DUP, RECVMSG etc. 
+4. Worked on unit-testing and Benchmarking framework for the system, for both GUI and non-GUI applications.
+5. Successfully tested various renowned applications like Wget, SSH, Scp, Sftp, Pdfviewer, Gedit, Thunderbird to be running in this Quarentined Architecture, and achieved near-to-local Performance numbers.
+
+--> HackTheL3 (Reverse Engineer L3 Cache) - (A Research Project on Reverse-Engineering the Cache Replacement Policy of L3 Cache, using various cache-set and slice aware data-access patterns.)
+--> Alertify - 3 Lines (A Web App with Django backend, to Alert the users about impending dangers or disasters in real-time based on their locations, using Sentiment Analysis on Tweets. \textbf{Runner-up in Microsoft Codefundo++ 2018 Hackathon.})
+--> SIP Portal - 3 Lines (An Automation Portal which acts as a channel amongst Startups, Students and College for facilitating Internships. Actively used since two years with 500+ Student Registrations each year.)
+--> Vaad Samvaad - 2 Lines (A NodeJs+PHP backend based Social Networking website, with all basic features of instant messaging, notifications and timeline.)
+
+--Misc
+1. Developed MVP for an entrepreneurial idea ICO. 
+2. Mentored 6 students on building a custom package manager. 
+3. Mentored 2 students as an ESC101 tutor to build a light-nginx like server.
+4. Mentored 12 students to build a Web App Movie Recommender. 
+5. AM Portal - 1 Line (A PHP backend based Q/A Forum Portal)
+6. FIR Management System (0 Lines)
+
+--Work
+1. PharmEasy (3 Lines)
+--> Implemented a Redis-based Cache, after performing benchmarking of in-memory Databases namely Aerospike, Memcached and Redis, to Cache the common Database queries. Performed Load-testing of the Cache framework and devised an Adaptive strategy for TTL.
+--> Achieved about 50 percent drop in Database queries of tables cached, and 25
+percent drop in response-time.
+
+2. Sprinklr - (5-6 Lines)
+--> Worked on Writing a generic Profiler in python, to pin-point Java Threads blocking CPU/IO/Network inside a system on Spike, by using the Jstack and top utility. Devised a multi-variable scoring system to extract the 'real' resource-consuming threads after taking series of observations.
+--> Currently used in Production and helped bring down the CPU usage from 90% during Spike to 50% by pointing out the inefficient code blocks. 
+--> Implemented a Mongo based Cache for the metadata of Logs stored in S3, to reduce the Query time of Apache Spark for particular log files. Reduced the initial Response time of 120 seconds to 3 seconds. 
+
+
+--Course Projects
+Bhagvata Gita chatapp (3 Lines) - A Mobile app to display the Geeta-shlokas relevant to your problem query, using various NLP Techniques and 7-dimensional representation of Shlokas on 7-sins. Built on Ionic framework with Backend in Django, live on PlayStore. 
+GemOS (1 Line) - A naive operating system, supporting Round-Robin Scheduling and basic system calls. 
+Gorakshak (1 Line) - Compiler for Golang written in Python.
+Cloud2.0 (secure file store) (2 Lines) - A cryptographically Secure Cloud Storage Web App written in Golang. 
+ozit (interpreter) (2 Lines) - An Interpreter for Oz written in Oz. 
+
+
+Positions of Responsibility
+1. Web Head, SPO -> Tracker, SysAdmin, Deployment of all apps, Various new features like Mail-on-news, Walk-in Interview, Automated various tasks like Stat updatation, Job Description scraping etc.
+2. Tutor (Twice) - ESC101
+2. SysAdmin of SIP Portal - Deployment and hot-fixing of code. 
+
+
+Languages to learn
+--Rust
